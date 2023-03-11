@@ -25,7 +25,7 @@ export const Gyphy = () =>{
             </div>
             <div id="results">
                 {giphs.map(item => (
-                    <div className="card"><img src={item.images.original.url} className="gif"/></div>
+                    <div className="card"><img src={item.images.original.url} className="gif" alt="gif"/></div>
                 ))}
             </div>
         </div>  
